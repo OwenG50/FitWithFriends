@@ -1,0 +1,273 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.subheader h2{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: x-large;
+    padding-bottom: 2vh;
+}
+
+#addExBtn{
+    padding: 4px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border-color: #000;
+    border-radius: 6px;
+    border-width: 2px;
+    background-color: #FFC4C4;
+    font-weight: bold;
+}
+
+#finishBtn{
+    padding: 4px;
+    margin: 2vh auto auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border-color: #000;
+    border-radius: 6px;
+    border-width: 2px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border-color: #000;
+    border-radius: 6px;
+    border-width: 2px;
+    margin: 5px 5vh 5vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFC4C4;
+    font-weight: bold;
+}
+
+/* for buttons with links */
+a:hover{
+    text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    margin: auto;
+    max-width: 80%;
+}
+
+.modal-content-inner{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5px;
+    display: inline-grid;
+    justify-content: center;
+}
+
+.modalInput{
+    margin-bottom: 5px;
+    border: 1px solid #888 ;
+    border-radius: 3px;
+}
+
+.form-item{
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+body{
+    background-color: #FFF5E4;
+}
+
+#submitBtn{
+    padding: 4px;
+    margin: 10px auto 0px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border-color: #000;
+    border-radius: 6px;
+    border-width: 2px;
+    background-color: #FFC4C4;
+    font-weight: bold;
+}
+
+.form-control{
+    margin: 3px;
+}
+
+#TO\ DO{
+    display: flex;
+    justify-content: center;
+}
+
+
+#ExerciseHeader {
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    font-style: italic;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #FFF5E4;
+}
+
+
+
+#exercise {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fefefe;
+    border-color: #000;
+    border-radius: 6px;
+    border-width: 2px;
+}
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    margin: .5rem;
+}
+
+input{
+    font-size: 1rem;
+}
+
+.learn-videos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr)) ;
+    gap: .25rem;
+    margin-top: 1rem;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+.video{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: lightgrey;
+    padding: .5rem;
+}
+
+.video > .videoName{
+    margin-bottom: .25rem;
+}
+.video > .body{
+    font-size: .8rem;
+}
+
+.hide{
+    display: none;
+}
+
+.videoName{
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.SocialMediaItem {
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: #fefefe;
+    margin: 5px 5px auto;
+
+}
+
+.SocialMediaProfilePicture{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+
+.SocialMediaUserName{
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+
+.SocialMediaHeader{
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.SocialMediaFooter{
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    word-wrap: normal;
+}
+
+.SocialMediaCaption{
+    margin-left: 5px;
+}
+
+.SocialMediaContent{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 800px;
+}
+
+
+#workout > h2{
+    display: flex;
+    justify-content: center;
+}
+
+#workout > button{
+    background-color: red;
+    font-weight: bold;
+}
