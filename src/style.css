@@ -271,3 +271,16 @@ input{
     background-color: red;
     font-weight: bold;
 }
+
+.home-page-text{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.home-page-text-l{
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
