@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- My own CSS -->
-    <link rel="stylesheet" href="src/nav.css">
+    <link rel="stylesheet" href="src/navbar.css">
     <link rel="stylesheet" href="src/style.css">
     <script src="main.js"></script>
 
@@ -26,7 +26,19 @@
 
 <div class="header">
     <h1>My Workouts</h1>
+
 </div>
+<button id="savedWorkouts">View Saved Workouts</button>
+
+<script>
+    var savedWorkoutButton = document.getElementById("savedWorkouts");
+    savedWorkoutButton.addEventListener("click", function (){
+       window.location.href = "workouts.html";
+    });
+</script>
+
+
+<div id="navbar" class="navbar"></div>
 
 <div class="container">
     <div class="row">
@@ -136,25 +148,8 @@
 
 </script>
 
-
-<footer>
-    <nav>
-        <a href="index.html" class="bloc-icon">
-            <img src="assets/home.svg" alt="home">
-        </a>
-        <a href="social.html" class="bloc-icon">
-            <img src="assets/social.svg" alt="social">
-        </a>
-        <a href="myWorkoutsINITIAL.html" class="bloc-icon">
-            <img src="assets/workout.svg" alt="workout">
-        </a>
-        <a href="learn.html" class="bloc-icon">
-            <img src="assets/learn.svg" alt="learn">
-        </a>
-        <a href="more.html" class="bloc-icon">
-            <img src="assets/more.svg" alt="more">
-        </a>
-    </nav>
-</footer>
+<!--My JavaScript-->
+<script src="navbar.js"></script>
+<script type="module" src="signup-login.js"></script>
 </body>
 </html>

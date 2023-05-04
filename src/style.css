@@ -284,3 +284,13 @@ input{
     justify-content: center;
     text-align: center;
 }
+
+#savedWorkouts{
+    display: block;
+    margin: 0 auto;
+}
+
+#createNewWorkout{
+    display: block;
+    margin: 0 auto;
+}
