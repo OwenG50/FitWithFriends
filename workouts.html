@@ -69,7 +69,6 @@
 
             let deleteWorkout = document.createElement('button');
             // deleteWorkout.className
-
             deleteWorkout.append("Delete Workout")
             deleteWorkout.onclick = () => {
                 let data = JSON.parse(localStorage.getItem("savedItems") ?? "{}");

@@ -8,9 +8,10 @@
     bottom: 0;
     height: 65px;
     width: 100%;
+    border-radius: 18px 18px 0px 0;
 }
 .navbar a {
-    color: black;
+    color: #E8E9f3;
     text-decoration: none;
     margin: 0 10px;
     display: flex;
@@ -22,5 +23,10 @@
 
 .navbar a:hover {
     text-decoration: underline;
+}
+
+.nav-icons{
+    filter: invert(1) sepia(1) hue-rotate(290deg) saturate(5);
+    border-radius: 50%;
 }
 
