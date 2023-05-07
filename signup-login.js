@@ -32,7 +32,7 @@ onAuthStateChanged(auth, (user) => {
         authState = user;
 
         //TODO
-        //if page = signup-login.html ---> then go to index.html
+        //if page = index.html ---> then go to home.html
         // else do nothing
 
         setTimeout(function (){
@@ -65,7 +65,7 @@ document.getElementById('log-btn').addEventListener('click', function() {
     document.getElementById('login-div').style.display='inline';
 });
 
-const indexPageUrl = "index.html";
+const indexPageUrl = "home.html";
 
 document.getElementById('login-btn').addEventListener('click', function() {
     const loginEmail = document.getElementById("login-email").value;

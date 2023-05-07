@@ -1,6 +1,6 @@
 // Navbar links
 const links = [
-    { text: "Home", icon:"assets/home.svg", href: "index.html" },
+    { text: "Home", icon:"assets/home.svg", href: "home.html" },
     { text: "Social", icon:"assets/social.svg", href: "social.html" },
     { text: "Workout", icon:"assets/workout.svg", href: "myWorkoutsINITIAL.html" },
     { text: "Learn", icon:"assets/learn.svg", href: "learn.html" },
