@@ -1,9 +1,13 @@
+body{
+    background-color: #E8E9F3;
+}
+
 .center-box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid red;
+    border: 2px solid #333333;
     border-radius: 40px;
     width: 300px;
     height: 320px;
@@ -11,20 +15,25 @@
     color: red;
 }
 
+h2{
+    color: #333333;
+}
+
 .text-field{
     padding: 10px 30px;
     margin: 20px 0;
-    border: 2px solid red;
+    border: 2px solid #333333;
     border-radius: 10px;
     font-size: 12pt;
-    color: red;
+    color: #333333;
 }
 
 .btn-style{
     padding: 10px 30px;
     border: 1px solid red;
-    background-color: red;
-    color: white;
+    background-color: #6987C9;
+    color: #333333;
+    font-weight: bold;
     border-radius: 20px;
     border: 1px solid black;
 }
@@ -36,9 +45,9 @@
 .an-btn{
     margin-top: 10px;
     border: 0;
-    background-color: white;
-    color: red;
+    color: #6987C9;
     font-size: 11pt;
+    background-color: #E8E9F3;
 
 }
 
@@ -56,9 +65,14 @@
     color: green;
 }
 
-#result{
-
-
+.back-btn{
+    padding: 10px 30px;
+    margin-top: 40px;
+    background-color: #6987C9;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 #logging-in-text {
