@@ -9,6 +9,7 @@
     height: 65px;
     width: 100%;
     border-radius: 18px 18px 0px 0;
+    z-index: 1000; /*Keeps Above other elements */
 }
 .navbar a {
     color: #E8E9f3;
